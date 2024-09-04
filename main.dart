@@ -22,7 +22,7 @@ void main() async {
   runApp(
     ProviderScope(
       child: EasyLocalization(
-        supportedLocales: const [Locale('en'), Locale('hi')],
+        supportedLocales: const [Locale('hi'), Locale('en')],
         path: 'assets/translations',
         fallbackLocale: const Locale('en'),
         child: const App(),
